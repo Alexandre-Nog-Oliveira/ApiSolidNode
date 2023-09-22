@@ -2,7 +2,7 @@ import { CreateUserService } from './CreateUserService';
 import { Request, Response } from "express";
 
 
-export class CreateUsreController{
+export class CreateUserController{
     constructor(
      private createUserService : CreateUserService
     ){}
